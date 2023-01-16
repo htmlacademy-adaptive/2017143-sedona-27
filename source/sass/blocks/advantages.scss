@@ -8,22 +8,22 @@
   text-align: center;
 }
 
-.advantages-slogan {
+.advantages__slogan {
   font-weight: 700;
   font-size: 18;
   line-height: 26px;
 }
 
-.advantages-list {
+.advantages__list {
   list-style-type: none;
 }
 
-.advantages-item:nth-child(1), .advantages-item:nth-child(5) {
+.advantages__item:nth-child(1), .advantages__item:nth-child(5) {
   background-color: #81b3d2 ;
   color: #ffffff;
 }
 
-.advantages-item__title {
+.advantages__title {
   font-weight: 700;
   font-size: 18px;
   line-height: 26px;

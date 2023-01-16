@@ -1,6 +1,4 @@
 .product-cards {
-  width: 320px;
-  margin-left: 20px;
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
@@ -8,6 +6,16 @@
   color: #000000;
 }
 
+.product-cards__wrapper {
+  width: 320px;
+  margin-left: 20px;
+  text-align: center;
+}
+
 .product-cards__title {
   font-weight: 700;
+}
+
+.product-cards__list {
+  list-style-type: none;
 }
