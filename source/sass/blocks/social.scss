@@ -1,0 +1,21 @@
+.social {
+  list-style-type: none;
+
+  &--vkontakte {
+    background-image: url(/source/img/footer/vk.svg);
+    background-repeat: no-repeat;
+    background-color: #81b3d2;
+  }
+
+  &--telegram {
+    background-image: url(/source/img/footer/telegram.svg);
+    background-repeat: no-repeat;
+    background-color: #81b3d2;
+  }
+
+  &--youtube {
+    background-image: url(/source/img/footer/yotube.svg);
+    background-repeat: no-repeat;
+    background-color: #81b3d2;
+  }
+}

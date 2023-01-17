@@ -2,6 +2,7 @@
 <html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
+    <link href="css/style.css" rel="stylesheet">
     <title>Седона Форма</title>
   </head>
 <body>
@@ -119,10 +120,8 @@
               <div class="emotions">
                 <label for="emo">Опишите свои эмоции:</label>
                 <textarea name="comment" placeholder="Опишите подробно все свои восторги" id="emo"></textarea>
-              </div>
-              <div class="form-container">
-                <button class="form-container__button" type="submit">ОТПРАВИТЬ ОТЗЫВ</button>
-                <p>* — Обязательные поля</p>
+                <button class="emotions__button" type="submit">ОТПРАВИТЬ ОТЗЫВ</button>
+                <p class="emotions__description">* — Обязательные поля</p>
               </div>
             </form>
           </section>
@@ -132,23 +131,23 @@
   </main>
   <footer class="main-footer">
     <div class="main-footer__wrapper">
-    <div class="main-footer__hashtag">
-      <p class="hashtag-address">#visitSEDONA</p>
+    <div class="main-footer__hashtag hashtag">
+      <p class="hashtag__address">#visitSEDONA</p>
     </div>
     <div class="main-footer__social social">
-      <ul class="social-list">
-        <li class="social-item">
-          <a class="social-link social-link--vkontakte">
+      <ul class="social__list">
+        <li class="social__item">
+          <a class="social__link social__link--vkontakte">
             Мы во Вконтакте
           </a>
         </li>
-        <li class="social-item">
-          <a class="social-link social-link--telegram">
+        <li class="social__item">
+          <a class="social__link social__link--telegram">
             Мы в Телеграме
           </a>
         </li>
-        <li class="social-item">
-          <a class="social-link social-link--youtube">
+        <li class="social__item">
+          <a class="social__link social__link--youtube">
             Мы на Ютубе
           </a>
         </li>
@@ -156,9 +155,11 @@
     </div>
     <div class="main-footer__copyright copyright">
       <b class="copyright__text">Разработано:</b>
-      <a class="copyright__link copyright__link--HTML-Academy" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+      <a class="copyright__link copyright__link--html-academy" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
     </div>
   </div>
   </footer>
+
 </body>
 </html>
+
