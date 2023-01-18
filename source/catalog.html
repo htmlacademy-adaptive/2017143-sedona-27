@@ -2,10 +2,11 @@
 <html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/style.css" rel="stylesheet">
     <title>Седона Форма</title>
   </head>
-<body>
+<body class="page-body"   >
   <header class="main-header">
     <a class="main-header__logo">
       <img src="../source/img/header/main-logo.svg" width="185" height="96" alt="Логотип 'Седона'">
@@ -49,10 +50,12 @@
               <h2 class="visually-hidden">Карточки товаров</h2>
               <div class="product-cards__wrapper">
                 <ul class="product-cards__list">
-                  <li class="product-cards__item">
+                  <li class="product-cards__item product-cards__main-item">
                     <img class="product-cards__image-card image-card" src="../source/img/catalog/sunset.jpg" width="280" height="280" alt="Закатное солнце над дорогой">
+                    <div class="card-container">
                     <h3 class="product-cards__title">неродные просторы</h3>
                     <p class="product-cards__autor">Автор фото: Борис</p>
+                  </div>
                     <button class="product-cards__button-like" type="button"><img src=".//img/catalog/like-icon.svg" width="23" height="21" alt="кнопка лайка"></button>
                     <b class="product-card__quantity">1350</b>
                   </li>

@@ -3,6 +3,14 @@
   width: 320px;
 }
 
-.mai-header__logo {
+.main-header__logo {
+  display: block;
   margin-right: 68px;
+  height: 96px;
+}
+
+@media (min-width: $tablet-width) {
+  .main-header__logo {
+    margin: 0, auto;
+  }
 }

@@ -8,6 +8,14 @@
   line-height: 26px;
   font-weight: 700;
   text-align: center;
+
+  @media (min-width: $tablet-width) {
+    padding: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0, 96px;
+  }
 }
 
 .emotions__button {
@@ -15,6 +23,16 @@
   color: #ffffff;
   font-size: 21px;
   line-height: 26px;
+
+  @media (min-width: $tablet-width) {
+    width: 324px;
+    margin-top: 48px;
+    margin-right: auto;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 384px;
+  }
 }
 
 .emotions__description {
@@ -22,5 +40,16 @@
   font-size: 12px;
   line-height: 21px;
   font-weight: 400;
+
+  @media (min-width: $tablet-width) {
+    font-size: 14px;
+    width: 192px;
+    margin-left: auto;
+    margin-top: 71px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 227px;
+  }
 }
 

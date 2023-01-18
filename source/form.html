@@ -2,10 +2,11 @@
 <html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/style.css" rel="stylesheet">
     <title>Седона Форма</title>
   </head>
-<body>
+<body class="page-body">
   <header class="main-header">
     <a class="main-header__logo">
       <img src="../source/img/header/main-logo.svg" width="185" height="96" alt="Логотип 'Седона'">
@@ -38,9 +39,9 @@
       <img class="main-container__logo" src="../source/img/header/SEDONA.svg" width="229" height="39">
       <section class="feedback">
         <div class="feedback-wrapper">
-          <header class="feedback-header">
-            <h2 class="feedback-title">Оставьте свой отзыв</h2>
-            <p class="feedback-intro">Помогите нашим отелям стать лучше!<br>
+          <header class="feedback__header">
+            <h2 class="feedback__title">Оставьте свой отзыв</h2>
+            <p class="feedback__intro">Помогите нашим отелям стать лучше!<br>
                                       оставьте отзыв о них, а также о<br>
                                       посещенных вами<br>
                                       достопримечательностях</p>
@@ -49,6 +50,7 @@
           <section class="group-form">
             <form action="#" method="post" target="_blank">
               <h2 class="visually-hidden">Форма обратной связи</h2>
+              <div class="group-form__contact-container">
               <fieldset>
                 <legend class="group-form__title">Представьтесь:</legend>
                 <ul class="group-form__list">
@@ -68,7 +70,7 @@
               </fieldset>
               <fieldset>
                 <legend class="group-form__title">Контактная информация:</legend>
-                <ul>
+                <ul class="group-form__contact-list">
                   <li>
                     <label for="number">Контактный телефон*:</label>
                     <input type="tel" name="phone" placeholder="Введите телефон" id="number" maxlength="11" required>
@@ -79,18 +81,19 @@
                   </li>
                 </ul>
               </fieldset>
+            </div>
               <fieldset>
                 <legend class="group-form__title">ВАше Общее впечатление:</legend>
-                <ul>
-                  <li>
+                <ul class="group-form__feedback-list">
+                  <li class="group-form__item">
                     <input type="radio" name="impression" id="positive" value="rather-positive" checked>
                     <label for="positive">Скорее положительное</label>
                   </li>
-                  <li>
+                  <li class="group-form__item">
                     <input type="radio" name="impression" id="negative" value="pather-negative">
                     <label for="negative">Скорее отрицательное</label>
                   </li>
-                  <li>
+                  <li class="group-form__item">
                     <input type="radio" name="impression" id="difficult" value="difficult-to-answer">
                     <label for="difficult">Затрудняюсь ответить</label>
                   </li>
@@ -98,20 +101,20 @@
               </fieldset>
               <fieldset>
                 <legend>посещенные<br> достопримечательности:</legend>
-                <ul>
-                  <li>
+                <ul class="group-form__sight-list sight-list">
+                  <li class="sight-list__item">
                     <input type="checkbox" name="bridge-devils" id="bridge" checked>
                     <label for="bridge">Мост Дьявола</label>
                   </li>
-                  <li>
+                  <li class="sight-list__item">
                     <input type="checkbox" name="mount-bell" id="bell" checked>
                     <label for="bell">Гора-Колокол</label>
                   </li>
-                  <li>
+                  <li class="sight-list__item">
                     <input type="checkbox" name="slide-park" id="slide" checked>
                     <label for="clide">Слайд-парк</label>
                   </li>
-                  <li>
+                  <li class="sight-list__item">
                     <input type="checkbox" name="red-mount" id="red">
                     <label for="red">Красные скалы</label>
                   </li>
