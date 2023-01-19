@@ -23,6 +23,11 @@
   }
 }
 
+.social__list {
+  display: flex;
+  justify-content: space-between;
+}
+
 .social-item {
   width: 48px;
 }

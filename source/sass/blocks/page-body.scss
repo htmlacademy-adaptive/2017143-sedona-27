@@ -1,5 +1,6 @@
-.page__body {
-  width: 280px;
+.page-body {
+  margin: 0 auto;
+  width: 320px;
   font-family: "PT-Sans";
 
   @media (min-width: $tablet-width) {
@@ -8,7 +9,6 @@
 
   @media (min-width: $desktop-width) {
     width: 1200px;
-    margin: auto, auto;
   }
 }
 
