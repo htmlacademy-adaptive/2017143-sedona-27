@@ -6,11 +6,19 @@
   line-height: 21px;
   font-weight: 400px;
   text-align: center;
+
+  @media (min-width: $tablet-width) {
+    width: 768px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1200px;
+  }
 }
 
 .advantages__slogan {
   font-weight: 700;
-  font-size: 18;
+  font-size: 18px;
   line-height: 26px;
 }
 
@@ -20,7 +28,7 @@
   list-style: none;
 
   @media (min-with: $tablet-width) {
-    display: gtid;
+    display: grid;
     grid-template-columns: 256px 256px 256px;
     width: 768px;
   }
@@ -28,17 +36,6 @@
   @media (min-width: $desktop-width) {
     grid-template-columns: 400px 400px 400px;
     width: 1200px;
-  }
-}
-
-.advantages__servises-list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-
-  @media (min-width: $tablet-width) {
-    display: flex;
-    justify-content: space-between;
   }
 }
 
@@ -62,13 +59,29 @@
   }
 }
 
+.advantages__servises-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  @media (min-width: $tablet-width) {
+    width: 768px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1200px;
+  }
+}
+
 .advantages__image-item {
   @media (min-width: $tablet-width) {
     width: 768px;
   }
 
   @media (min-width: $desktop-width) {
-    width: 800px;
+    width: 1200px;
   }
 }
 

@@ -1,15 +1,28 @@
-body {
+.page__body {
   width: 280px;
   font-family: "PT-Sans";
 
   @media (min-width: $tablet-width) {
-    width: 648px;
+    width: 768px;
   }
 
   @media (min-width: $desktop-width) {
     width: 1200px;
-    margin: auto, 40px;
+    margin: auto, auto;
   }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 

@@ -22,12 +22,13 @@
   list-style: none;
 
   @media (min-width: $tablet-width) {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 324px 324px;
   }
 
   @media (min-width: $desktop-width) {
-    color: #ffffff;
+    grid-template-columns: 400px 400px 400px;
+    color: black;
   }
 }
 

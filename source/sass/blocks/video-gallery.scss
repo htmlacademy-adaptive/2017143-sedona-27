@@ -4,6 +4,7 @@
   font-size: 18px;
   font-weight: 700;
   line-height: 26px;
+  text-align: center;
 
   @media (min-width: $tablet-width) {
     font-size: 21px;
@@ -13,16 +14,15 @@
 .video-gallery__wrapper {
   margin-top: 17px;
   width: 320px;
-  text-align: center;
 
   @media (min-width: $tablet-width) {
     margin-top: 58px;
-    width: 648px;
+    width: 768px;
   }
 
   @media (min-width: $desktop-width) {
     margin-top: 62px;
-    width: 800px;
+    width: 1200px;
   }
 }
 

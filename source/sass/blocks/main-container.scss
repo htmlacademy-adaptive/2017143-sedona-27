@@ -1,25 +1,49 @@
+.main-container {
+  width: 320px;
+  margin-top: 0;
+
+  @media (min-width: $tablet-width) {
+   width: 768px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1200px;
+  }
+}
+
+.logo__wrapper {
+  display: block;
+  background-color: #81b3d2;
+  background-image: url("/source/img/background-logo.jpg");
+  background-repeat: no-repeat;
+  width: 320px;
+
+  @media (min-width: $tablet-width) {
+    width: 768px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1200px;
+  }
+}
+
 .welcome__logo {
   width: 282px;
   height: 214px;
+  display: block;
+  margin: 90px auto 85px;
 
   @media (min-width: $tablet-width) {
     width: 461px;
     height: 350px;
-  }
-}
-
-.logo__wraper {
-  display: block;
-  margin: 90px, auto, 85px;
-  background-image: url("/source/img/background-logo.jpg");
-  background-color: #81b3d2;
-  background-repeat: no-repeat;
-
-  @media (min-width: $tablet-width) {
-    margin: 77px, auto, 91px;
+    margin: 77px auto 91px;
   }
 
   @media (min-width: $desktop-width) {
-    margin: 78px, auto, 90px;
+    margin: 78px auto 90px;
   }
+
+
 }
+
+

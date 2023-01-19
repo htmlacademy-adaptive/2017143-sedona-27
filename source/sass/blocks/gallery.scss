@@ -4,13 +4,18 @@
   font-weight: 400;
   background-color: #ffffff;
   color: #000000;
+  text-align: center;
 }
 
 .gallery__wrapper {
-  width: 280px;
+  width: 320px;
 
   @media (min-width: $tablet-width) {
-    width: 458px;
+    width: 768px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1200px;
   }
 }
 
