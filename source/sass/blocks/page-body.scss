@@ -1,7 +1,7 @@
 .page-body {
+  font-family: "PT-Sans";
   margin: 0 auto;
   width: 320px;
-  font-family: "PT-Sans";
 
   @media (min-width: $tablet-width) {
     width: 768px;
@@ -24,5 +24,3 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
-

@@ -1,9 +1,9 @@
 .main-container {
   width: 320px;
-  margin-top: 0;
+  margin: 0 auto;
 
   @media (min-width: $tablet-width) {
-   width: 768px;
+    width: 768px;
   }
 
   @media (min-width: $desktop-width) {
@@ -13,6 +13,7 @@
 
 .logo__wrapper {
   display: block;
+  margin: 0 auto;
   background-color: #81b3d2;
   background-image: url("/source/img/background-logo.jpg");
   background-repeat: no-repeat;
@@ -42,8 +43,4 @@
   @media (min-width: $desktop-width) {
     margin: 78px auto 90px;
   }
-
-
 }
-
-
