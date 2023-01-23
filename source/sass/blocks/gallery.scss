@@ -1,0 +1,30 @@
+.gallery {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+}
+
+.gallery__wrapper {
+  width: 320px;
+
+  @media (min-width: $tablet-width) {
+    width: 768px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1200px;
+  }
+}
+
+.gallery__title {
+ font-size: 18px;
+ line-height: 26px;
+ font-weight: 700;
+
+ @media (min-width: $desktop-width) {
+  font-size: 30px;
+}
+}

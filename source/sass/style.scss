@@ -1,18 +1,22 @@
 // Начните писать стили здесь
+$tablet-width: 768px;
+$desktop-width: 1200px;
+
+@import "./fonts.scss";
+@import "./blocks/page-body.scss";
 @import "./blocks/main-header.scss";
 @import "./blocks/main-nav.scss";
 @import "./blocks/main-container.scss";
 @import "./blocks/advantages.scss";
 @import "./blocks/subscription.scss";
 @import "./blocks/main-footer.scss";
-@import "./blocks/video-gallery.scss";
-@import "./blocks/product-cards.scss";
 @import "./blocks/hashtag.scss";
 @import "./blocks/social.scss";
 @import "./blocks/copyright.scss";
+@import "./blocks/gallery.scss";
+@import "./blocks/product-cards.scss";
+@import "./blocks/video-gallery.scss";
 @import "./blocks/clip.scss";
 @import "./blocks/feedback.scss";
-@import "./blocks/emotions.scss";
 @import "./blocks/group-form.scss";
-@import "./blocks/fonts.scss";
-@import "./blocks/page-body.scss";
+@import "./blocks/emotions.scss";

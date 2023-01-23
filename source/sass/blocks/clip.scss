@@ -1,3 +1,13 @@
 .clip {
-  margin-left: 38px, 20px, 0;
+  display: block;
+  margin: 38px auto 0;
+
+  @media (min-width: $tablet-width) {
+    margin: 66px auto 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: 64px auto 0;
+  }
+
 }

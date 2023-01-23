@@ -3,6 +3,13 @@
   width: 320px;
 }
 
-.mai-header__logo {
-  margin-right: 68px;
+.main-header__logo {
+  display: block;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: 185px;
+  height: 96px;
 }

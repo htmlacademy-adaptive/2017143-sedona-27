@@ -1,5 +1,8 @@
 .social {
-  list-style-type: none;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 156px;
 
   &--vkontakte {
     background-image: url(/source/img/footer/vk.svg);
@@ -18,4 +21,13 @@
     background-repeat: no-repeat;
     background-color: #81b3d2;
   }
+}
+
+.social__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-item {
+  width: 48px;
 }

@@ -1,11 +1,46 @@
-.welcome__logo {
-  display: block;
-  margin: 90px, 19px, 85px;
+.main-container {
+  width: 320px;
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    width: 768px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1200px;
+  }
 }
 
-.logo__wraper {
-  width: 320px;
-  background-image: url("/source/img/background-logo.jpg");
+.logo__wrapper {
+  display: block;
+  margin: 0 auto;
   background-color: #81b3d2;
+  background-image: url("/source/img/background-logo.jpg");
   background-repeat: no-repeat;
+  width: 320px;
+
+  @media (min-width: $tablet-width) {
+    width: 768px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1200px;
+  }
+}
+
+.welcome__logo {
+  width: 282px;
+  height: 214px;
+  display: block;
+  margin: 90px auto 85px;
+
+  @media (min-width: $tablet-width) {
+    width: 461px;
+    height: 350px;
+    margin: 77px auto 91px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: 78px auto 90px;
+  }
 }
