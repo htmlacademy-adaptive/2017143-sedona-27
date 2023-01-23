@@ -11,20 +11,18 @@
     <a class="main-header__link" href="index.html">
       <img class="main-header__logo" src="../source/img/header/main-logo.svg" alt="Логотип 'Седона'">
     </a>
-    <nav class="main-nav main-nav--closed main-nav--nojs">
+    <nav class="main-header__main-nav main-nav main-nav--closed main-nav--nojs">
       <button class="main-nav__toggle" type="button">
         <span class="visually-hidden">Открыть меню</span>
       </button>
       <div class="main-nav__wrapper">
-        <ul class="main-nav__main-list">
-          <li class="main-nav__item">
-            <a class="main-nav__link" href="./index.html">Главная</a>
-          </li>
-          <li class="main-nav__item main-nav__item--active">
-            <a class="main-nav__link">ФОТО И ВИДЕО</a>
-          </li>
-        </ul>
         <ul class="main-nav__list">
+          <li class="main-nav__item main-nav__item--active">
+            <a class="main-nav__link">Главная</a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="catalog.html">ФОТО И ВИДЕО</a>
+          </li>
           <li class="main-nav__item">
             <a class="main-nav__link" href="form.html">Форма отзыва</a>
           </li>
@@ -55,34 +53,54 @@
                   <li class="product-cards__item product-cards__main-item">
                     <img class="product-cards__image-card image-card" src="../source/img/catalog/sunset.jpg" width="280" height="280" alt="Закатное солнце над дорогой">
                     <div class="card-container">
-                    <h3 class="product-cards__title">неродные просторы</h3>
-                    <p class="product-cards__autor">Автор фото: Борис</p>
-                  </div>
-                  <div class="like-container">
-                    <button class="product-cards__button-like" type="button"><img src=".//img/catalog/like-icon.svg" width="23" height="21" alt="кнопка лайка"></button>
-                    <b class="product-card__quantity">1350</b>
-                  </div>
+                      <div class="autor-container">
+                        <h3 class="product-cards__title">неродные просторы</h3>
+                        <p class="product-cards__autor">Автор фото: Борис</p>
+                      </div>
+                      <div class="like-container">
+                        <button class="product-cards__button-like" type="button"><img src=".//img/catalog/like-icon.svg" alt="кнопка лайка"></button>
+                        <b class="product-card__quantity">1350</b>
+                      </div>
+                    </div>
                   </li>
                   <li class="product-cards__item">
-                    <img class="product-cards__image-card image-card" src="../source/img/catalog/cactus.jpg" width="280" height="280" alt="кактусы">
-                    <h3 class="product-cards__title">местная растительность</h3>
-                    <p class="product-cards__autor">Автор фото: Сергей</p>
-                    <button class="product-cards__button-like" type="button"><img src=".//img/catalog/like-icon.svg" width="23" height="21" alt="кнопка лайка"></button>
-                    <b class="product-card__quantity">143</b>
+                      <img class="product-cards__image-card image-card" src="../source/img/catalog/cactus.jpg" width="280" height="280" alt="кактусы">
+                      <div class="card-container"></div>
+                        <div class="autor-container">
+                          <h3 class="product-cards__title">местная растительность</h3>
+                          <p class="product-cards__autor">Автор фото: Сергей</p>
+                        </div>
+                        <div class="like-container">
+                          <button class="product-cards__button-like" type="button"><img src=".//img/catalog/like-icon.svg" alt="кнопка лайка"></button>
+                          <b class="product-card__quantity">143</b>
+                        </div>
+                      </div>
                   </li>
                   <li class="product-cards__item">
                     <img class="product-cards__image-card image-card" src="../source/img/catalog/serpantin.jpg" width="280" height="280" alt="Серпантин">
-                    <h3 class="product-cards__title">дорога на север</h3>
-                    <p class="product-cards__autor">Автор фото: Петр</p>
-                    <button class="product-cards__button-like" type="button"><img src=".//img/catalog/like-icon.svg" width="23" height="21" alt="кнопка лайка"></button>
-                    <b class="product-card__quantity">96</b>
+                    <div class="card-container">
+                      <div class="autor-container">
+                        <h3 class="product-cards__title">дорога на север</h3>
+                        <p class="product-cards__autor">Автор фото: Петр</p>
+                      </div>
+                      <div class="like-contaiener">
+                        <button class="product-cards__button-like" type="button"><img src=".//img/catalog/like-icon.svg" alt="кнопка лайка"></button>
+                        <b class="product-card__quantity">96</b>
+                      </div>
+                    </div>
                   </li>
                   <li class="product-cards__item">
                     <img class="product-cards__image-card image-card" src="../source/img/catalog/bridge-of-devil.jpg" width="280" height="280" alt="Каньен">
-                    <h3 class="product-cards__title">мост дьявола</h3>
-                    <p class="product-cards__autor">Автор фото: Антон</p>
-                    <button class="product-cards__button-like" type="button"><img src=".//img/catalog/like-icon.svg" width="23" height="21" alt="кнопка лайка"></button>
-                    <b class="product-card__quantity">254</b>
+                    <div class="card-container">
+                      <div class="autor-container">
+                        <h3 class="product-cards__title">мост дьявола</h3>
+                        <p class="product-cards__autor">Автор фото: Антон</p>
+                      </div>
+                      <div class="like-container">
+                        <button class="product-cards__button-like" type="button"><img src=".//img/catalog/like-icon.svg" alt="кнопка лайка"></button>
+                        <b class="product-card__quantity">254</b>
+                      </div>
+                    </div>
                   </li>
                 </ul>
               </div>
